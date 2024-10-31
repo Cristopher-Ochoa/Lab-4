@@ -87,6 +87,63 @@ Captura de los primeros instantes de la señal para poder observar después de a
           val_bandpass_filtered = filtfilt(b_pass, a_pass, val_rej_filtered)
 
 
+![image](https://github.com/user-attachments/assets/21316124-b216-4e91-83cd-603724c3b821)
+
+
+![image](https://github.com/user-attachments/assets/423beb3f-63bb-43e2-b3f6-912fbfc3395a)
+
+
+Gráfica 1: Señal ECG Filtrada con Picos R Detectados
+En esta gráfica, se muestra la señal de ECG filtrada con los picos R marcados. Los picos R son puntos de interés en la señal de ECG que representan las contracciones ventriculares, y los intervalos entre ellos (R-R) son fundamentales para el análisis de HRV.
+Se observa que los picos R están correctamente identificados y distribuidos de manera variable a lo largo del tiempo, lo que ya sugiere la presencia de cierta variabilidad en los intervalos R-R.
+Gráfica 2: Distribución de los Intervalos R-R
+La segunda gráfica muestra un histograma de los intervalos R-R. El eje horizontal representa la duración de los intervalos R-R en segundos, y el eje vertical representa la frecuencia de cada intervalo.
+La distribución parece tener una forma aproximadamente asimétrica hacia la derecha, con la mayoría de los intervalos R-R centrados alrededor de 0.7 segundos y una menor cantidad de intervalos extendiéndose hacia valores más altos.
+Parámetros Estadísticos de la HRV
+Media de los Intervalos R-R:
+
+La media de los intervalos R-R es una medida del ritmo cardíaco promedio. En general, una media más alta indica un ritmo cardíaco más lento y una más baja indica un ritmo cardíaco más rápido.
+La media observada de los intervalos R-R en el histograma parece estar alrededor de 0.7 segundos, lo que correspondería a un ritmo cardíaco promedio de aproximadamente 
+60
+0.7
+≈
+86
+0.7
+60
+​
+ ≈86 latidos por minuto.
+Desviación Estándar de los Intervalos R-R (SDNN):
+
+La desviación estándar de los intervalos R-R es un indicador común de la HRV. Una desviación estándar alta sugiere una mayor variabilidad en los intervalos R-R, lo cual es generalmente un signo de un sistema nervioso autónomo saludable y adaptable.
+En la gráfica, se observa que hay una dispersión significativa en los intervalos, especialmente con algunos valores que se extienden por encima de 0.9 segundos. Esto indica cierta variabilidad, pero también podría haber presencia de valores atípicos.
+Coeficiente de Variación de los Intervalos R-R:
+
+El coeficiente de variación (CV) se calcula como la desviación estándar dividida por la media de los intervalos R-R, y proporciona una medida de la variabilidad relativa.
+Un CV más alto indica una mayor variabilidad relativa, mientras que un CV bajo indica que los intervalos son más uniformes.
+Análisis Crítico de la HRV
+Variabilidad Observada:
+
+La presencia de variabilidad en los intervalos R-R es una señal de una adecuada regulación autónoma del ritmo cardíaco. Sin embargo, si la variabilidad es excesivamente alta o baja, podría indicar problemas en el control autonómico del corazón.
+En esta muestra, parece haber una variabilidad moderada con algunos intervalos R-R más largos (hacia 1.0-1.2 segundos), lo que podría estar relacionado con fluctuaciones en la actividad del sistema nervioso parasimpático.
+Potenciales Valores Atípicos:
+
+Algunos de los intervalos R-R en la distribución se extienden hacia 1.0-1.2 segundos. Estos intervalos más largos podrían ser valores atípicos, o podrían indicar eventos fisiológicos específicos, como cambios en el tono vagal o en la respiración.
+Es importante analizar si estos intervalos extremos afectan significativamente las medidas de HRV y si representan algún evento anómalo.
+Salud Cardiovascular y HRV:
+
+Una HRV alta es generalmente indicativa de un sistema nervioso autónomo flexible y saludable, asociado con un buen equilibrio entre las actividades simpática y parasimpática.
+Una HRV baja podría estar asociada con estrés, fatiga, o disfunción del sistema nervioso autónomo. La distribución observada aquí parece mostrar una HRV razonable, aunque sería importante compararla con valores de referencia para determinar si está dentro de un rango saludable.
+Conclusión
+Los parámetros básicos de la HRV, como la media y la desviación estándar de los intervalos R-R, son esenciales para evaluar la regulación autónoma del corazón. En este análisis:
+
+La media de los intervalos R-R sugiere un ritmo cardíaco moderadamente rápido.
+La desviación estándar indica una variabilidad notable, lo que es positivo desde el punto de vista de la salud cardiovascular.
+Sin embargo, es crucial realizar un análisis más detallado y considerar la posible presencia de valores atípicos que puedan influir en las estadísticas generales.
+Este análisis ayuda a comprender cómo el sistema nervioso autónomo está regulando el ritmo cardíaco y puede ser un indicador útil en la evaluación de la salud cardíaca general.
+
+
+![image](https://github.com/user-attachments/assets/c25253e3-7ae5-4ca3-9f40-d3b6de4803af)
+
 
 
 1. Espectrograma usando la Transformada Wavelet Continua (CWT)
