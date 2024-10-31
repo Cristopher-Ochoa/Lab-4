@@ -31,6 +31,9 @@ El SNA juega un papel crucial en la regulación del ritmo cardíaco y otras func
 La HRV es un indicador de la salud y la capacidad de adaptación del SNA, con aplicaciones en la evaluación de estrés, bienestar y riesgo cardiovascular.
 La Transformada Wavelet Continua (CWT) es una herramienta avanzada para analizar señales no estacionarias como la HRV, proporcionando información detallada sobre cómo varían las frecuencias en el tiempo y permitiendo el estudio de la dinámica del SNA.
 
+![image](https://github.com/user-attachments/assets/b807b90e-1762-4ada-92f9-5c683263e542)
+
+
 ## Adquisición de la señal
 
 [![Figure-2024-10-30-225518.png](https://i.postimg.cc/sXgy03J2/Figure-2024-10-30-225518.png)](https://postimg.cc/wtZS18ZK)
