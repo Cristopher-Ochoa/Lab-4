@@ -1,3 +1,35 @@
+1. Sistema Nervioso Autónomo (SNA)
+El Sistema Nervioso Autónomo (SNA) es la parte del sistema nervioso que controla involuntariamente funciones corporales vitales, como el ritmo cardíaco, la respiración, la digestión y la presión arterial. Se divide en dos ramas principales:
+
+Sistema Nervioso Simpático (SNS): Se activa en situaciones de estrés o actividad física, aumentando el ritmo cardíaco y preparando al cuerpo para una respuesta de “lucha o huida”.
+Sistema Nervioso Parasimpático (SNP): Actúa para relajar el cuerpo y conservar energía, disminuyendo el ritmo cardíaco y promoviendo funciones de “descanso y digestión”.
+El SNA regula el ritmo cardíaco mediante un equilibrio dinámico entre estas dos ramas. La actividad de estos sistemas puede evaluarse indirectamente a través de la Variabilidad de la Frecuencia Cardíaca (HRV).
+
+2. Variabilidad de la Frecuencia Cardíaca (HRV)
+La Variabilidad de la Frecuencia Cardíaca (HRV) es una medida que refleja las fluctuaciones en los intervalos de tiempo entre latidos cardíacos consecutivos (los intervalos R-R). Es un indicador importante de la salud del SNA y se utiliza para evaluar el equilibrio entre la actividad simpática y parasimpática.
+
+HRV Alta: Se asocia con un SNA flexible y saludable, lo que indica una buena capacidad de adaptación a los cambios fisiológicos y ambientales. Una HRV alta es deseable y sugiere un tono parasimpático predominante.
+HRV Baja: Puede ser un signo de estrés, fatiga o disfunción del SNA, y se ha asociado con un mayor riesgo de enfermedades cardiovasculares. Una HRV baja indica una menor capacidad de adaptación.
+Parámetros Clave de la HRV en el Dominio del Tiempo:
+Media de los Intervalos R-R: Indica el ritmo cardíaco promedio.
+Desviación Estándar de los Intervalos R-R (SDNN): Mide la dispersión o variabilidad de los intervalos R-R. Una SDNN más alta refleja una mayor HRV.
+Coeficiente de Variación (CV): Proporciona una medida de la variabilidad relativa en relación con la media.
+3. Transformada Wavelet Continua (CWT)
+La Transformada Wavelet Continua (CWT) es una herramienta matemática que descompone una señal en componentes de frecuencia y las representa a lo largo del tiempo. Es útil para analizar señales no estacionarias, como las de HRV, donde las frecuencias pueden cambiar dinámicamente.
+
+Wavelet Morlet: Es una función seno modulada por una envolvente Gaussiana, utilizada frecuentemente para el análisis de señales biológicas debido a su buena resolución tanto en tiempo como en frecuencia. La wavelet Morlet permite detectar transiciones rápidas en las frecuencias de la señal, lo que es crucial para analizar cómo varía la HRV en diferentes momentos.
+Aplicación de la CWT en el Análisis de HRV
+La CWT se usa para obtener un espectrograma de la HRV, que muestra cómo la potencia de las frecuencias cambia con el tiempo. Esto es particularmente útil para analizar las bandas de frecuencia relevantes:
+
+Banda de Baja Frecuencia (LF, 0.04-0.15 Hz): Relacionada con la actividad simpática y parasimpática.
+Banda de Alta Frecuencia (HF, 0.15-0.4 Hz): Asociada principalmente con la actividad parasimpática y la respiración.
+El análisis espectral de estas bandas permite evaluar el equilibrio autonómico y cómo el cuerpo responde a diferentes estímulos fisiológicos o ambientales.
+
+Resumen Crítico
+El SNA juega un papel crucial en la regulación del ritmo cardíaco y otras funciones vitales.
+La HRV es un indicador de la salud y la capacidad de adaptación del SNA, con aplicaciones en la evaluación de estrés, bienestar y riesgo cardiovascular.
+La Transformada Wavelet Continua (CWT) es una herramienta avanzada para analizar señales no estacionarias como la HRV, proporcionando información detallada sobre cómo varían las frecuencias en el tiempo y permitiendo el estudio de la dinámica del SNA.
+
 ## Adquisición de la señal
 
 [![Figure-2024-10-30-225518.png](https://i.postimg.cc/sXgy03J2/Figure-2024-10-30-225518.png)](https://postimg.cc/wtZS18ZK)
