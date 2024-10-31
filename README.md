@@ -97,6 +97,7 @@ La wavelet Morlet es adecuada para este tipo de análisis porque:
 Combina una función seno y una envolvente Gaussiana, lo que le da una buena capacidad para detectar cambios transitorios en las señales.
 Es ideal para capturar las frecuencias de interés en la HRV, especialmente en el rango de frecuencias bajas y altas que son relevantes para el análisis de la variabilidad de la frecuencia cardíaca (HRV).
 Proporciona una representación suave y continua en el tiempo, lo que facilita la visualización de las transiciones en la potencia espectral.
+
 2. Análisis en la Banda de Baja Frecuencia (LF) y Alta Frecuencia (HF)
 Para el análisis, hemos separado la señal de HRV en las bandas de baja frecuencia (LF) y alta frecuencia (HF):
 
