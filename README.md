@@ -14,6 +14,7 @@ Parámetros Clave de la HRV en el Dominio del Tiempo:
 Media de los Intervalos R-R: Indica el ritmo cardíaco promedio.
 Desviación Estándar de los Intervalos R-R (SDNN): Mide la dispersión o variabilidad de los intervalos R-R. Una SDNN más alta refleja una mayor HRV.
 Coeficiente de Variación (CV): Proporciona una medida de la variabilidad relativa en relación con la media.
+
 3. Transformada Wavelet Continua (CWT)
 La Transformada Wavelet Continua (CWT) es una herramienta matemática que descompone una señal en componentes de frecuencia y las representa a lo largo del tiempo. Es útil para analizar señales no estacionarias, como las de HRV, donde las frecuencias pueden cambiar dinámicamente.
 
